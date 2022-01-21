@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="kontikas container">
-      <form>
+      <form  name="contact" method="POST" data-netlify="true">
         <label for="name">Vardas</label>
         <input type="text" id="name" name="name" placeholder="Jūsų vardas">
     
@@ -69,7 +69,8 @@
         <label for="subject">Žinutė</label>
         <textarea id="subject" name="subject" placeholder="Jūsų žinutė" style="height:200px"></textarea>
         
-        <input type="submit" onclick="window.location.href='mailto:andri.vanseviciute@gmail.com';" value="Susisiekite">
+        <input type="submit">
+        <!-- <input type="submit" onclick="window.location.href='mailto:andri.vanseviciute@gmail.com';" value="Susisiekite"> -->
       </form>
     </div>
         <footer class="footer" role="contentinfo">
