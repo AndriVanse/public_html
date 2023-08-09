@@ -1,0 +1,165 @@
+.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom: 2.5%;
+  margin-top: 2%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+}
+
+.headerMainPage {
+  max-width: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#mainMaxWidth {
+    max-width: 1140px;
+}
+
+.moreWorks {
+  margin-top: 2.5%;
+}
+
+.customFooter {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+}
+
+.burgerMenu {
+  font-size:30px;
+  cursor:pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #000000;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.overlay img:hover,
+.overlay img:focus {
+    opacity: 100%;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #818181;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.kontikas {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.logo {
+  height: 39px;
+}
+@media only screen and (max-width: 767px) {
+  .pt20 {
+    padding-top: 20px;
+  }
+}
